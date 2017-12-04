@@ -8,7 +8,7 @@
     
     }
 
-## 限定
+## 限定符操作
 
 - StringRes：string资源类型
 - DrawableRes：drawable资源类型
@@ -44,3 +44,13 @@
       	 rightimg.setImageResource(Img);
      	 mRightClick();
        }
+	   
+## TODO的用法
+我们经常会使用TODO来标记我们的代码，一般是用来表示待完成，或者待解决的部分
+详细：http://blog.csdn.net/my_truelove/article/details/72857949
+一句话弄清二者区别： TODO 是总称，FIXME 是细分。
+
+### 栗子： 
+      // TODO: 2017/12/4  待完成
+      // FIXME: 2017/12/4 待解决的(待修复的)
+
