@@ -10,9 +10,11 @@
 
 ## 限定符操作
 
+- LayoutRes：layout资源类型
 - StringRes：string资源类型
 - DrawableRes：drawable资源类型
 - ColorRes：color资源类型
+- IdRes：id资源类型
 - StyleableRes：styleable资源类型
 - RawRes：raw资源类型
 - StyleRes：style资源类型
@@ -24,10 +26,8 @@
 - AttrRes：attr资源类型
 - BoolRes：boolean资源类型
 - FractionRes：fraction资源类型
-- IdRes：id资源类型
 - IntegerRes：integer资源类型
 - InterpolatorRes：interpolator资源类型
-- LayoutRes：layout资源类型
 - MenuRes：menu资源类型
 - PluralsRes：plurals资源类型
 - TransitionRes：transition资源类型
@@ -47,10 +47,16 @@
 	   
 ## TODO的用法
 我们经常会使用TODO来标记我们的代码，一般是用来表示待完成，或者待解决的部分
+
 详细：http://blog.csdn.net/my_truelove/article/details/72857949
+
 一句话弄清二者区别： TODO 是总称，FIXME 是细分。
 
 ### 栗子： 
       // TODO: 2017/12/4  待完成
       // FIXME: 2017/12/4 待解决的(待修复的)
 
+	
+### 数据传递：  
+    Parcelable 比 Serializable 效率高
+	Parcelable封装：https://github.com/mcharmas/android-parcelable-intellij-plugin
