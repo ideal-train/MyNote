@@ -10,6 +10,7 @@
 
 ## 限定符操作
 
+- @Nullable：非空限定
 - LayoutRes：layout资源类型
 - StringRes：string资源类型
 - DrawableRes：drawable资源类型
