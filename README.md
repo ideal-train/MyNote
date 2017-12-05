@@ -1,6 +1,9 @@
 
 ## 抛弃枚举：优化使用方法 （基于Intellij的“魔术常量”检查机制）
 
+详细:https://github.com/LJF-SH/MyNote/tree/master/enums
+
+
      Person.getFlavour(Person.CHOCOLATE);
      otherWay(Person.CHOCOLATE);
 
