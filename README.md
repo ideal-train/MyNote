@@ -1,6 +1,8 @@
 
 ## 抛弃枚举：优化使用方法 （基于Intellij的“魔术常量”检查机制）
 
+## 我的Demo(与此无关其他项目): [点击这里](https://github.com/LJF-SH/Food)
+
 详细:https://github.com/LJF-SH/MyNote/tree/master/enums
 
 
@@ -64,3 +66,8 @@
 ### 数据传递：  
     Parcelable 比 Serializable 效率高
 	Parcelable封装：https://github.com/mcharmas/android-parcelable-intellij-plugin
+
+	
+---
+都看到这里了，顺便给个。。。哎 别走啊，还没点。。。
+---
